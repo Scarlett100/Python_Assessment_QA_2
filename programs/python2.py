@@ -32,7 +32,11 @@ import random
 
 
 def one(string):
-    return 1
+    string= str()
+    for i in range(len): 
+        string = input(a)*3
+       
+    return string
 
     # <QUESTION 2>
 
@@ -51,7 +55,16 @@ def one(string):
 
 
 def two(num):
-    return
+    for i in range(1, input):
+     if num % i !=0:
+        return True
+       
+    else:
+        return False
+   
+   
+ #think its asking for prime numbers
+
 
     # <QUESTION 3>
 
@@ -69,7 +82,18 @@ def two(num):
 
 
 def three(a):
-    return
+    a = a
+    a2 = str(a) * 2 
+    a3= str(a) * 3
+    a4 = str(a) * 4
+    a2 = int (a2)
+    a3 = int (a3)
+    a4 = int (a4)
+    
+    return a + a2 + a3 + a4
+
+
+   
 
     # <QUESTION 4>
 
@@ -117,7 +141,18 @@ def four(string1, string2):
 
 
 def five():
-    return
+    import random
+     #return random.randint((100, 200, 2),5) (later ask why doesn't work)
+     #return random (randint(100, 200, 2) in range(5))
+     #return five((random.randint(100, 200, 2)),5) 
+     #return random.sample(randint(range(100, 200, 2),5))
+     #return random.sample(in range(100, 200 ,2),5)  
+    return random.sample(range(100, 200 ,2),5)
+    
+
+    
+    
+     #return five((random.randint(100, 200, 2)),5) 
 
     # <QUESTION 6>
 
@@ -137,7 +172,12 @@ def five():
 
 
 def six(string):
-    return
+    string1 = string.lower()
+    if string1.endswith('py'):
+        return True
+    else: 
+        return False
+
 
     # <QUESTION 7>
 
